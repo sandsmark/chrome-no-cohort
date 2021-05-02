@@ -1,0 +1,21 @@
+{
+   "author": "martin",
+   "background": {
+       "scripts": ["headers.js"]
+   },
+   "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ],
+   "description": "Disables Google's new fingerprinting technique, protecting your privacy.",
+   "icons": {
+      "128": "icon128.png",
+      "32": "icon32.png"
+   },
+   "browser_action": {},
+   "manifest_version": 2,
+   "name": "Disable FLoC User Tracking",
+   "short_name": "antiflac",
+   "version": "1.0"
+}
